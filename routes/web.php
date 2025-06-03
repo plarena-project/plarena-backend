@@ -1,5 +1,3 @@
-// Lokasi File: C:\Users\mohiq\backand_plarena\routes\web.php
-
 <?php
 
 use Illuminate\Support\Facades\Route;
