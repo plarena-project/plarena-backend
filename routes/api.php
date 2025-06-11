@@ -21,10 +21,10 @@ Route::post('/pesanan', [PesananController::class, 'store']);
 Route::put('/pesanan/{id}', [PesananController::class, 'update']);
 Route::delete('/pesanan/{id}', [PesananController::class, 'destroy']);
 
-Route::get('/lapangans', [LapanganController::class, 'index']);
-Route::post('/lapangans', [LapanganController::class, 'store']);
-Route::put('/lapangans/{id}', [LapanganController::class, 'update']);
-Route::delete('/lapangans/{id}', [LapanganController::class, 'destroy']);
+Route::get('/lapangan', [LapanganController::class, 'index']);
+Route::post('/lapangan', [LapanganController::class, 'store']);
+Route::put('/lapangan/{id}', [LapanganController::class, 'update']);
+Route::delete('/lapangan/{id}', [LapanganController::class, 'destroy']);
 Route::middleware('auth:api')->get('/profile', function (Request $request) {
     return $request->user();
 });
